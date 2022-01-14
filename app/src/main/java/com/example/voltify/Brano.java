@@ -11,6 +11,7 @@ public class Brano {
 
     public Brano(String titolo){
         this.titolo = titolo;
+        this.durata = durata;
     }
 
     public String getTitolo() {
