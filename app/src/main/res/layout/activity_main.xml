@@ -11,12 +11,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Inserisci le Canzoni"
-        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteX="145dp"
         tools:layout_editor_absoluteY="66dp" />
 
     <EditText
         android:id="@+id/txtTitolo"
-        android:layout_width="169dp"
+        android:layout_width="150dp"
         android:layout_height="40dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -34,8 +34,8 @@
 
     <EditText
         android:id="@+id/txtDurata"
-        android:layout_width="168dp"
-        android:layout_height="38dp"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Durata"
@@ -52,7 +52,7 @@
 
     <EditText
         android:id="@+id/txtDatacreazione"
-        android:layout_width="165dp"
+        android:layout_width="150dp"
         android:layout_height="40dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -61,20 +61,20 @@
         tools:layout_editor_absoluteY="248dp" />
 
     <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="134dp"
-        android:layout_height="39dp"
-        tools:layout_editor_absoluteX="244dp"
-        tools:layout_editor_absoluteY="114dp" />
+        android:id="@+id/spnGenere"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="112dp" />
 
     <EditText
         android:id="@+id/txtAutore"
-        android:layout_width="141dp"
-        android:layout_height="41dp"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Autore"
-        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteX="229dp"
         tools:layout_editor_absoluteY="183dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

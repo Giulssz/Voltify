@@ -8,10 +8,14 @@ public class Brano {
     private int durata;
     private String autore;
     private Date datacreazione;
+    private String genere;
 
-    public Brano(String titolo){
+    public Brano(String titolo, int durata, String autore, Date datacreazione, String genere){
         this.titolo = titolo;
         this.durata = durata;
+        this.autore = autore;
+        this.datacreazione = datacreazione;
+        this.genere = genere;
     }
 
     public String getTitolo() {
